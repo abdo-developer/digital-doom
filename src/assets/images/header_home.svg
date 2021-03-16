@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="637" viewBox="0 0 960 637">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#838def"/>
+      <stop offset="1" stop-color="#453ecc"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="960" height="637" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_de_masques_1" data-name="Groupe de masques 1" clip-path="url(#clip-path)">
+    <path id="Tracé_1" data-name="Tracé 1" d="M1928,415.64c11.247-4.772,22.494-119.309,253.062-60.768s320.545,50.905,452.7,20.362,205.261,19.726,233.379,40.406,101.225,102.129,101.225,102.129V-144H1928Z" transform="translate(-1968.068 104.548)" fill="#35e7b3"/>
+    <path id="Tracé_2" data-name="Tracé 2" d="M1928,415.64c11.247-4.772,22.494-119.309,253.062-60.768s320.545,50.905,452.7,20.362,205.261,19.726,233.379,40.406,101.225,102.129,101.225,102.129V-144H1928Z" transform="translate(-1968.068 89.277)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)"/>
+    <path id="Tracé_3" data-name="Tracé 3" d="M1928,415.64c11.247-4.772,22.494-119.309,253.062-60.768s320.545,50.905,452.7,20.362,205.261,19.726,233.379,40.406,101.225,102.129,101.225,102.129V-144H1928Z" transform="translate(-1968.068 49.825)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
