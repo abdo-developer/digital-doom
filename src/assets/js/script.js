@@ -17,5 +17,11 @@ jQuery(function () {
         $('html,body').animate({ scrollTop: $(hash).offset().top }, 800, function () { })
     });
 
+
+    $('.nav-button').click(function(){
+        $('body').toggleClass('nav-open');
+      });
+
+
 });
 

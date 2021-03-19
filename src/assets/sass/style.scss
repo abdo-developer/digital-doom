@@ -4,6 +4,8 @@
 @import './color';
 @import './fonts';
 @import './header';
+@import './navbar_fullscreen';
+@import './request_price';
 
 
 // Style Files
@@ -371,9 +373,13 @@ footer.footer-page .copyright p.copyright {
 
 
 // Extra small devices (portrait phones, less than 576px)
-@media (min-width: 320px) and (max-width: 575.98px) {
+@media (min-width: 300px) and (max-width: 575.98px) {
 
     // Home page
+
+    .main-menu .nav li a {
+        font-size: 20px;
+    }
 
     .hidden-on-small {
         display: none;
