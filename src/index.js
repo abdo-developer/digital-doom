@@ -14,4 +14,6 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'jquery/dist/jquery';
 import './assets/js/script.js';
 
+import 'jquery-countto/jquery.countTo';
+
 import './assets/sass/style.scss';

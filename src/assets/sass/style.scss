@@ -6,6 +6,7 @@
 @import './header';
 @import './navbar_fullscreen';
 @import './request_price';
+@import './who_are_we';
 
 
 // Style Files
@@ -460,6 +461,24 @@ footer.footer-page .copyright p.copyright {
         margin: 24px 0;
     }
 
+    // Csutom request page
+    .requests_prices .line-left {
+        border-left: none;
+        border-bottom: 1px solid #838def;
+        margin: 20px 0px;
+    }
+
+    .image-pro img {
+        height: 200px;
+        margin: 15px 0;
+    }
+
+    // Page evaluate_idea
+    .send-now {
+        text-align: center;
+        margin: 20px 0;
+    }
+
 
 }
 
@@ -511,6 +530,19 @@ footer.footer-page .copyright p.copyright {
         margin: 24px 0;
     }
 
+    // Csutom request page
+    .requests_prices .line-left {
+        border-left: none;
+        border-bottom: 1px solid #838def;
+        margin: 20px 0px;
+    }
+
+    // Page evaluate_idea
+    .send-now {
+        text-align: center;
+        margin: 20px 0;
+    }
+
 
 }
 
@@ -553,6 +585,19 @@ footer.footer-page .copyright p.copyright {
     footer.footer-page .icon-social-media ul {
         padding: 0;
         margin: 24px 0;
+    }
+
+    // Csutom request page
+    .requests_prices .line-left {
+        border-left: none;
+        border-bottom: 1px solid #838def;
+        margin: 20px 0px;
+    }
+
+    // Page evaluate_idea
+    .send-now {
+        text-align: center;
+        margin: 20px 0;
     }
 
 }

@@ -123,7 +123,13 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: "evaluate_idea.html",
       template: "./src/evaluate_idea.html"
-    })
+    }),
+
+    new HtmlWebpackPlugin({
+      filename: "who_are_we.html",
+      template: "./src/who_are_we.html"
+    }),
+
 
   ]
 }

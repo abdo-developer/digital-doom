@@ -5,60 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الرئيسية | </title>
+    <title>طلب تقييم فكرة | </title>
 </head>
 
 <body>
 
+
     <!-- Top Header -->
-    <header class="header_top_page">
-        <!-- Navbar collapse -->
+    <header class="head-main">
+        <div class="navbar navbar-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand logo_brand d-flex align-items-center">
+                    <img src="./assets/images/logo_brand.svg" alt="شعار الموقع">
+                </a>
 
-        <nav class="navbar">
-            <!--  style="background-color: #7176E4;" -->
-            <a class="navbar-brand logo_brand" href="index.html" style="color: aliceblue;">
-                <img src="./assets/images/logo_brand.svg" alt="شعار الموقع">
-            </a>
-
-            <!-- طلب تقييم فكرة + طلب عرض سعر -->
-            <ul class="list-inline hidden-on-small">
-                <li class="list-inline-item more-menu">
-                    <a href="#" class="nav-link">اطلب عرض سعر</a>
-                </li>
-                <li class="list-inline-item more-menu">
-                    <a href="#" class="nav-link">طلب تقييم فكرة</a>
-                </li>
-            </ul>
-            <!--نهاية طلب تقييم فكرة + طلب عرض سعر -->
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDigitalStarDom">
-                <i class="fas fa-bars"></i>
-            </button>
-
-            <!-- القائمة العلوية -->
-            <div class="collapse navbar-collapse" id="navbarDigitalStarDom">
-                <ul class="navbar-nav mr-auto ml-auto">
-                    <li class="nav-item active">
-                        <a href="#" class="nav-link">الرئيسية</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">الخدمات</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">الأعمال</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">عن الشركة</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">المدونة</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">تواصل معنا</a>
-                    </li>
-                </ul>
-
-                <ul class="list-inline d-lg-none d-md-none d-sm-none show-all-small">
+                <!-- تقييم فكرة أو اطلب عر ضسعر  -->
+                <ul class="list-inline m-0 visit-link hidden-on-small">
                     <li class="list-inline-item more-menu">
                         <a href="#" class="nav-link">اطلب عرض سعر</a>
                     </li>
@@ -66,16 +28,112 @@
                         <a href="#" class="nav-link">طلب تقييم فكرة</a>
                     </li>
                 </ul>
+                <!-- النهاية -->
+
+                <a class="nav-button">
+                    <span id="nav-icon3">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </a>
 
             </div>
-            <!-- نهاية الكُوود -->
-        </nav>
-        <!-- End Navbar collapse -->
+        </div>
+        <!--navbar end-->
 
-
-
+        <div class="fixed-top main-menu">
+            <div class="flex-center p-5">
+                <ul class="nav flex-column">
+                    <li class="nav-item delay-1"><a class="nav-link" href="#">الرئيسية</a></li>
+                    <li class="nav-item delay-2"><a class="nav-link" href="#">الخدمات</a></li>
+                    <li class="nav-item delay-3"><a class="nav-link" href="#">الأعمال</a></li>
+                    <li class="nav-item delay-4"><a class="nav-link" href="#">عن الشركة</a></li>
+                    <li class="nav-item delay-5"><a class="nav-link" href="#">المدونة</a></li>
+                    <li class="nav-item delay-5"><a class="nav-link" href="#">اطلب عرض سعر</a></li>
+                    <li class="nav-item delay-5"><a class="nav-link" href="#">طلب تقييم فكرة</a></li>
+                    <li class="nav-item delay-6"><a class="nav-link" href="#">تواصل معنا</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--main-menu end-->
     </header>
     <!-- End -->
+
+
+
+    <!-- Form requets -->
+    <section class="requests_prices">
+        <div class="container form-request">
+
+            <!-- Title -->
+            <div class="title_idea">
+                <h3 class="custom-idea text-center">
+                    طلب تقييم فكرة مــا
+                </h3>
+            </div>
+
+            <!-- Space -->
+            <br>
+
+            <!-- Text -->
+            <div class="text-idea">
+                <p class="text-center">
+                    لديك فكرة، وتريد فريق مميز يقةم تحليلها وتقييمها واكتشاف ما إذا كانت ناحجة أم لا ؟
+                    <br>
+                    إذاً، لا تتردد وسارع بملء النموذج أدنـاه وأرسل لنا الطلب وسوف نجيبك في أقرب الآجــال .
+                </p>
+            </div>
+
+            <!-- Line -->
+            <hr>
+
+            <!-- Form request a price -->
+            <form action="" class="form-request-send">
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+
+                        <div class="form-group">
+                            <label for="">الإسـم الكامل</label>
+                            <input type="text" class="form-control" placeholder="الإسم الكامل" id="" name="" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="">رقم الجـوال</label>
+                            <input type="tel" class="form-control" placeholder="رقم الجـوال" id="" name="" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="">البريد الإلكتروني</label>
+                            <input type="text" class="form-control" placeholder="البريد الإلكتروني" id="" name=""
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="">تفاصيل عن الفكرة</label>
+                            <input type="text" class="form-control text" placeholder="تفاصيل عن الفكرة" id="" name=""
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="image-pro text-center">
+                            <img src="./assets/images/Mobile apps-bro.svg" alt="Mobile apps-bro">
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Send a information now -->
+
+                <div class="send-now">
+                    <button type="submit" class="btn custom-btn-primary mt-3">إرسال الطلب</button>
+                </div>
+
+            </form>
+
+        </div>
+    </section>
+    <!-- End -->
+
 
 
     <!-- Footer Page -->

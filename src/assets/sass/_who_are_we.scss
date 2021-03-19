@@ -1,0 +1,67 @@
+// Style custom page who are we 
+header.bg-about {
+    background-image: url(../images/bg-about.svg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header.bg-about .title-who h3 {
+    color: $color-white;
+    margin: 50px 0 10px 0;
+}
+
+header.bg-about .title-who  p {
+    font-size: 18px;
+    color: $color-beige;
+}
+
+header.bg-about .about-me p {
+    color: $color-white;
+    font-size: 18px;
+    margin: 35px 0;
+}
+
+.scroll-down img {
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+
+section.about-our-company .title-company h3 {
+    margin: 30px 0;
+}
+
+section.about-our-company .text-marks p {
+    margin-bottom: 30px;
+}
+
+section.about-our-company .file-company a {
+    text-decoration: none;
+    background-color: $color-base;
+    padding: 10px 25px;
+    color: $color-white;
+    border-radius: 25px;
+    transition:  all 0.5s ease-in-out;
+}
+
+section.about-our-company .file-company a:hover,
+section.about-our-company .file-company a:active,
+section.about-our-company .file-company a:focus {
+    background-color: $color-fixed;
+    color: $color-beige;
+}
+
+section.about-our-company .file-company a svg {
+    font-size: 18px;
+    margin-right: 6px;
+}
+
+// 
+
+section.statistics {
+    background-image: url(../images/Background.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 65px 0;
+}
