@@ -11,7 +11,7 @@ header.bg-about .title-who h3 {
     margin: 50px 0 10px 0;
 }
 
-header.bg-about .title-who  p {
+header.bg-about .title-who p {
     font-size: 18px;
     color: $color-beige;
 }
@@ -42,7 +42,7 @@ section.about-our-company .file-company a {
     color: $color-black;
     border: 1px inset $color-fixed;
     border-radius: 25px;
-    transition:  all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 section.about-our-company .file-company a:hover,
@@ -65,4 +65,93 @@ section.statistics {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 65px 0;
+}
+
+section.statistics .title-statistics h3 {
+    margin: 25px 0;
+}
+
+section.statistics .number p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: $color-fixed;
+}
+
+section.statistics .name-static p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+// Custom Section Vision-message
+
+section.Vision-message {
+    background-image: url(../images/vision-msg.svg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+section.Vision-message .content-section {
+    margin-top: 10%;
+}
+
+section.Vision-message .title-vision h3 {
+    font-size: 26px;
+    margin: 30px 0;
+}
+
+section.Vision-message .image-creative {
+    text-align: center;
+}
+
+section.Vision-message .image-creative img {
+    height: 350px;
+    margin: 60px 0;
+}
+
+// Section members
+
+section.management-members .space-top {
+    margin: 60px 0 8px 0;
+}
+
+section.management-members .card {
+    box-shadow: 0 4px 16px rgb(17 17 26 / 5%), 0 8px 32px $color-base;
+    border: none;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+section.management-members .card .card-body h5 {
+    font-size: 22px;
+}
+
+section.management-members .card .card-body .icon-media ul {
+    padding: 0;
+}
+
+section.management-members .card .card-body .icon-media .list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+section.management-members .card .card-body .icon-media ul li {
+    margin-left: 20px;
+    border: 1px solid gray;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.6s ease-in-out;
+}
+
+section.management-members .card .card-body .icon-media ul li:hover,
+section.management-members .card .card-body .icon-media ul li:active,
+section.management-members .card .card-body .icon-media ul li:focus {
+    -webkit-box-shadow: -30px 0 0 rgb(230, 230, 230) inset;
+}
+
+section.management-members .card .card-body .icon-media ul li a svg {
+    color: rgba(128, 128, 128, 0.7);
 }
