@@ -42,10 +42,15 @@
     color: $color-black;
 }
 
-.form-request-send .form-group input,
+.form-request-send .form-group input {
+    border-color: $color-base;
+    border-radius: 25px;
+    height: 50px;
+}
+
 .form-request-send .form-group textarea {
     border-color: $color-base;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 .form-request-send .custom-btn-primary {

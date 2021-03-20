@@ -68,18 +68,22 @@ header.header_top_page .portfolio_projects {
 header.header_top_page .portfolio_projects a {
     font-family: $font-heading;
     font-size: 18px;
-    background-color: $color-white;
-    padding: 15px 40px;
+    background-color: $color-base-light;
+    padding: 12px 40px;
     border-radius: 50px;
-    color: $color-fixed;
+    color: $color-black;
     transition: all .5s ease-in-out;
+    -webkit-box-shadow: -118px 0 0 $color-white inset;
 }
 
 
-header.header_top_page .portfolio_projects a:hover {
+header.header_top_page .portfolio_projects a:hover,
+header.header_top_page .portfolio_projects a:active,
+header.header_top_page .portfolio_projects a:focus {
     text-decoration: none;
     color: $color-white;
     background-color: $color-fixed;
+    -webkit-box-shadow: -70px 0 0 $color-base inset;
 }
 
 header.header_top_page .image-header img {
@@ -145,11 +149,17 @@ section.about-company .read_more a {
     border-radius: 50px;
     color: $color-white;
     transition: all .5s ease-in-out;
+    -webkit-box-shadow: -100px 0 0 $color-base-light inset;
+
 }
 
-section.about-company .read_more a:hover {
+section.about-company .read_more a:hover,
+section.about-company .read_more a:active,
+section.about-company .read_more a:focus {
     text-decoration: none;
-    color: $color-beige;
+    color: $color-white;
+    font-weight: 500;
+    -webkit-box-shadow: -30px 0 0 $color-base-light inset;
 }
 
 // Section services arts 
@@ -204,7 +214,8 @@ section.business_gallery .card .card-body a.btn {
 section.business_gallery .card .card-body a.btn:hover,
 section.business_gallery .card .card-body a.btn:active,
 section.business_gallery .card .card-body a.btn:focus {
-    color: $color-beige;
+    color: $color-black;
+    -webkit-box-shadow: -110px 0 0 $color-light-green inset;
 }
 
 // Section Our clients
@@ -413,13 +424,13 @@ footer.footer-page .copyright p.copyright {
         margin-bottom: 45px;
     }
 
-    section.services_arts {
-        padding: 65px 0;
-        height: 395vh;
-    }
+    // section.services_arts {
+    //     padding: 65px 0;
+    //     height: 395vh;
+    // }
 
     section.business_gallery {
-        margin-top: -135%;
+        margin-top: -25%;
     }
 
     section.our_clients #carouselClinetsIndicators .carousel-indicators {
@@ -505,7 +516,7 @@ footer.footer-page .copyright p.copyright {
     }
 
     section.business_gallery {
-        margin-top: -70%;
+        margin-top: -50%;
     }
 
     section.our_clients #carouselClinetsIndicators .carousel-indicators img {
@@ -623,4 +634,11 @@ footer.footer-page .copyright p.copyright {
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) and (max-width: 1400px) {
     // Good Responsive
+}
+
+// Extra Lg 
+@media (min-width: 1500px) and (max-width: 1700px) {
+    section.services_arts {
+        height: 130vh;
+    }
 }
