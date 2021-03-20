@@ -16,4 +16,7 @@ import './assets/js/script.js';
 
 import 'jquery-countto/jquery.countTo';
 
+import 'dropzone/dist/dropzone.js';
+import 'dropzone/dist/dropzone.css';
+
 import './assets/sass/style.scss';

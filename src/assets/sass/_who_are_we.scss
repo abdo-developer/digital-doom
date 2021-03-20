@@ -39,7 +39,8 @@ section.about-our-company .file-company a {
     text-decoration: none;
     background-color: $color-base;
     padding: 10px 25px;
-    color: $color-white;
+    color: $color-black;
+    border: 1px inset $color-fixed;
     border-radius: 25px;
     transition:  all 0.5s ease-in-out;
 }

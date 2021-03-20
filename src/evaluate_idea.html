@@ -90,6 +90,15 @@
             <form action="" class="form-request-send">
 
                 <div class="row">
+
+                    <!-- Image -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="image-pro text-center">
+                            <img src="./assets/images/Mobile apps-bro.svg" alt="Mobile apps-bro">
+                        </div>
+                    </div>
+
+                    <!-- Form -->
                     <div class="col-lg-6 col-md-12">
 
                         <div class="form-group">
@@ -110,24 +119,25 @@
 
                         <div class="form-group">
                             <label for="">تفاصيل عن الفكرة</label>
-                            <textarea class="form-control" placeholder="تفاصيل عن الفكرة" name="" id="" cols="7" rows="5"></textarea>
+                            <textarea class="form-control" placeholder="تفاصيل عن الفكرة" name="" id="" cols="7"
+                                rows="5"></textarea>
                         </div>
                     </div>
-
-                    <div class="col-lg-6 col-md-12">
-                        <div class="image-pro text-center">
-                            <img src="./assets/images/Mobile apps-bro.svg" alt="Mobile apps-bro">
-                        </div>
-                    </div>
-
                 </div>
-                <!-- Send a information now -->
-
-                <div class="send-now">
-                    <button type="submit" class="btn custom-btn-primary mt-3">إرسال الطلب</button>
-                </div>
-
             </form>
+
+            <!-- Upload Files -->
+            <div class="row">
+                <div class="col-12">
+                    <label for="">رفع أي مرفقات من خلال النموذج أسفلهُ</label>
+                    <form action="/file-upload" class="dropzone" id="my-awesome-dropzone"></form>
+                </div>
+            </div>
+            <!-- End -->
+
+            <!-- Send a information now -->
+            <button type="submit" class="btn custom-btn-primary mt-3">إرسال الطلب</button>
+            <!-- End -->
 
         </div>
     </section>
