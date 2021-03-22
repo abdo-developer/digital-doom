@@ -8,6 +8,7 @@
 @import './request_price';
 @import './who_are_we';
 @import './services_arts';
+@import './portfolio_projects';
 
 
 // Style Files
@@ -532,7 +533,7 @@ footer.footer-page .copyright p.copyright {
         text-align: center;
     }
 
-   
+
 
     section.our_services_arts {
         margin: 0;
@@ -548,6 +549,17 @@ footer.footer-page .copyright p.copyright {
 
     section.our_services_arts .image-explain img {
         height: 180px;
+    }
+
+    // Page portfolio_projects
+
+    section.business_gallery .filter-projects {
+        margin-top: 15%;
+    }
+
+    section.business_gallery .filter-projects .click-check a {
+        font-size: 15px;
+        margin-left: 1px;
     }
 
 }
@@ -621,6 +633,16 @@ footer.footer-page .copyright p.copyright {
     // Page services_arts
     section.our_services_arts .image-explain {
         text-align: center;
+    }
+
+    // Page portfolio_projects
+    section.business_gallery .filter-projects {
+        margin-top: 45%;
+    }
+
+    section.business_gallery .filter-projects .click-check a {
+        font-size: 16px;
+        margin-left: 3px;
     }
 
 
