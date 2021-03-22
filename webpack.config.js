@@ -135,6 +135,16 @@ module.exports = {
       template: "./src/services_arts.html"
     }),
 
+    new HtmlWebpackPlugin({
+      filename: "portfolio_projects.html",
+      template: "./src/portfolio_projects.html"
+    }),
+
+    new HtmlWebpackPlugin({
+      filename: "blog.html",
+      template: "./src/blog.html"
+    }),
+
 
   ]
 }
