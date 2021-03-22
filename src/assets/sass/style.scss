@@ -188,6 +188,10 @@ section.services_arts .card-service .title-service {
 
 // Section // business_gallery
 
+section.business_gallery {
+    margin-top: 30px;
+}
+
 section.business_gallery .card {
     border: none;
     margin: 20px 0;
@@ -679,12 +683,21 @@ footer.footer-page .copyright p.copyright {
 }
 
 // Extra Lg 
-@media (min-width: 1400px) and (max-width: 1700px) {
+@media (min-width: 1400px) and (max-width: 1800px) {
 
     // Responsive pages
     section.services_arts {
         height: 130vh;
     }
+
+    // Page Who are we
+    header.bg-about {
+        height: 75vh;
+    }
+}
+
+// Top Extra lagr
+@media (max-width: 2000px) {
 
     // Page Who are we
     header.bg-about {
