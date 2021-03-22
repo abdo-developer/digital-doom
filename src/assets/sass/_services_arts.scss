@@ -1,0 +1,49 @@
+// Custom design page Services_arts
+
+section.our_services_arts {
+    margin: 50px 0;
+}
+
+section.our_services_arts .title-services h4 {
+    margin-bottom: 12px;
+}
+
+section.our_services_arts .small-description p {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+section.our_services_arts .description-service p {
+    margin: 50px 0 40px 0;
+    font-size: 17px;
+}
+
+section.our_services_arts .glow-on-hover a {
+    padding: 8px 26px;
+    background-color: $color-base;
+    border-radius: 25px;
+    color: $color-white;
+    font-weight: 600;
+    -webkit-box-shadow: -10px 0 0 $color-light-green inset;
+    transition: all .6s ease-in-out;
+}
+
+section.our_services_arts .glow-on-hover a:hover,
+section.our_services_arts .glow-on-hover a:active,
+section.our_services_arts .glow-on-hover a:focus {
+    -webkit-box-shadow: -130px 0 0 $color-light-green inset;
+    color: $color-black;
+}
+
+section.our_services_arts .image-explain {
+    text-align: left;
+}
+
+section.our_services_arts .image-reserve {
+    text-align: right;
+}
+
+section.our_services_arts .image-explain img {
+    height: 300px;
+    margin: 40px 0 15px;
+}

@@ -7,6 +7,7 @@
 @import './navbar_fullscreen';
 @import './request_price';
 @import './who_are_we';
+@import './services_arts';
 
 
 // Style Files
@@ -65,7 +66,7 @@ header.header_top_page .portfolio_projects {
     margin-top: 50px;
 }
 
-header.header_top_page .portfolio_projects a {
+.portfolio_projects a {
     font-family: $font-heading;
     font-size: 18px;
     background-color: $color-base-light;
@@ -77,9 +78,9 @@ header.header_top_page .portfolio_projects a {
 }
 
 
-header.header_top_page .portfolio_projects a:hover,
-header.header_top_page .portfolio_projects a:active,
-header.header_top_page .portfolio_projects a:focus {
+.portfolio_projects a:hover,
+.portfolio_projects a:active,
+.portfolio_projects a:focus {
     text-decoration: none;
     color: $color-white;
     background-color: $color-fixed;
@@ -517,6 +518,38 @@ footer.footer-page .copyright p.copyright {
         margin-top: -40%;
     }
 
+    // Page services_arts
+
+    header.bg-services {
+        height: 100vh;
+    }
+
+    section.our_services_arts .circle_top ul,
+    section.our_services_arts .title-services h4,
+    section.our_services_arts .small-description p,
+    section.our_services_arts .description-service p,
+    section.our_services_arts .glow-on-hover {
+        text-align: center;
+    }
+
+   
+
+    section.our_services_arts {
+        margin: 0;
+    }
+
+    .hidden-on-smaller {
+        display: none;
+    }
+
+    section.our_services_arts .image-explain {
+        text-align: center;
+    }
+
+    section.our_services_arts .image-explain img {
+        height: 180px;
+    }
+
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -585,6 +618,11 @@ footer.footer-page .copyright p.copyright {
         height: 90vh;
     }
 
+    // Page services_arts
+    section.our_services_arts .image-explain {
+        text-align: center;
+    }
+
 
 }
 
@@ -645,6 +683,11 @@ footer.footer-page .copyright p.copyright {
     // Page Who are we
     header.bg-about {
         height: 75vh;
+    }
+
+    // Page services_arts
+    section.our_services_arts .image-explain img {
+        height: 250px;
     }
 
 }

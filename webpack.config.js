@@ -130,6 +130,11 @@ module.exports = {
       template: "./src/who_are_we.html"
     }),
 
+    new HtmlWebpackPlugin({
+      filename: "services_arts.html",
+      template: "./src/services_arts.html"
+    }),
+
 
   ]
 }
