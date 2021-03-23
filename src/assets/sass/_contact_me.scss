@@ -1,0 +1,107 @@
+// Custom style Page Contact me
+section.inesrt-form .circle ul {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+section.inesrt-form .circle ul li {
+    margin-right: 0 !important;
+    margin-left: 3px;
+}
+
+section.inesrt-form .circle ul li .cirlce-one {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $color-light-green;
+    margin: 0 auto;
+}
+
+section.inesrt-form .circle ul li .cirlce-two {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: $color-base-light;
+}
+
+section.inesrt-form .circle ul li .cirlce-three {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: $color-base;
+}
+
+section.inesrt-form .information-company {
+    margin-top: 50px;
+}
+
+section.inesrt-form .information-company .line-left {
+    border-left: 1px solid $color-fixed;
+}
+
+section.inesrt-form .information-company .adress p {
+    color: $color-base;
+    font-weight: bold;
+}
+
+section.inesrt-form form {
+    margin-top: 60px;
+}
+
+section.inesrt-form .form-group svg {
+    font-size: 20px;
+    margin-left: 4px;
+    color: $color-base;
+}
+
+section.inesrt-form .form-group label {
+    font-weight: 600;
+}
+
+section.inesrt-form .form-group input {
+    background-color: $color-input;
+    border: none;
+    border-radius: 20px;
+    height: 45px;
+}
+
+section.inesrt-form .form-group textarea {
+    background-color: $color-input;
+    border: none;
+    border-radius: 20px;
+}
+
+section.inesrt-form .form-group button.btn-custom {
+    background-color: $color-fixed;
+    border-radius: 25px;
+    color: $color-white;
+    font-weight: 500;
+    box-shadow: $color-gray-rgba 6px 2px 16px 0px, $color-base-light -6px -2px 16px 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+section.inesrt-form .form-group button.btn-custom:hover,
+section.inesrt-form .form-group button.btn-custom:active,
+section.inesrt-form .form-group button.btn-custom:focus {
+    background-color: $color-base;
+}
+
+section.inesrt-form .image-pro img {
+    margin-top: 60px;
+}
+
+// 
+
+section.Contact-us .contact-us-now {
+    background-color: $color-white;
+    box-shadow: $color-gray-rgba 6px 2px 16px 0px, $color-gray-rgba -6px -2px 16px 0px;
+    padding: 25px 50px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+section.Contact-us .contact-us-now .title h4 {
+    color: $color-fixed;
+    font-size: 26px
+}

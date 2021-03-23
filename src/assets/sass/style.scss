@@ -10,6 +10,7 @@
 @import './services_arts';
 @import './portfolio_projects';
 @import './blog';
+@import './contact_me';
 
 
 // Style Files
@@ -588,6 +589,15 @@ footer.footer-page .copyright p.copyright {
         text-align: center;
     }
 
+    // Page contact
+    section.inesrt-form .information-company .line-left {
+        border-bottom: 1px solid #453ecc;
+        border-left: none;
+        margin: 20px 0px;
+    }
+
+
+
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -691,6 +701,14 @@ footer.footer-page .copyright p.copyright {
     }
 
 
+    // Page contact
+    section.inesrt-form .information-company .line-left {
+        border-bottom: 1px solid #453ecc;
+        border-left: none;
+        margin: 20px 0px;
+    }
+
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -760,6 +778,13 @@ footer.footer-page .copyright p.copyright {
     // Page blog
     section.blog {
         margin-top: 0;
+    }
+
+    // Page contact
+    section.inesrt-form .information-company .line-left {
+        border-bottom: 1px solid #453ecc;
+        border-left: none;
+        margin: 20px 0px;
     }
 }
 
