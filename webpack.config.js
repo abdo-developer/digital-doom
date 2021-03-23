@@ -145,7 +145,7 @@ module.exports = {
       template: "./src/blog.html"
     }),
 
-     new HtmlWebpackPlugin({
+    new HtmlWebpackPlugin({
       filename: "article.html",
       template: "./src/article.html"
     }),
@@ -158,6 +158,11 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: "details_project.html",
       template: "./src/details_project.html"
+    }),
+
+    new HtmlWebpackPlugin({
+      filename: "app_projects.html",
+      template: "./src/app_projects.html"
     }),
 
 
