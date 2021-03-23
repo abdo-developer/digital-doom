@@ -1,0 +1,59 @@
+// Style Aricle and blog
+
+section.content-article .circle_top ul {
+    margin-top: 40px;
+}
+
+section.content-article article {
+    margin: 25px 0 20px;
+    text-align: justify;
+}
+
+section.content-article article .image-article {
+    text-align: center;
+}
+
+section.content-article article .custom-image img {
+    height: 180px !important;
+}
+
+section.content-article article .image-article img {
+    margin: 30px 0;
+    height: 300px;
+}
+
+section.content-article .share-social-media .share-now ul li {
+    display: inline-table;
+    background-color: $color-fixed;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right: 0 !important;
+    margin-left: 8px;
+    border-radius: 5px;
+    box-shadow: 6px 2px 16px 0 rgb(136 165 191 / 48%), -6px -2px 16px 0 rgb(136 165 191 / 48%);
+    transition: all 0.7s ease-in-out;
+}
+
+section.content-article .share-social-media .share-now ul li:hover,
+section.content-article .share-social-media .share-now ul li:active,
+section.content-article .share-social-media .share-now ul li:focus {
+    background-color: $color-light-green;
+}
+
+section.content-article .share-social-media .share-now ul {
+    margin-top: 20px;
+}
+
+section.content-article .share-social-media .share-now ul li a {
+    text-decoration: none;
+    color: $color-white;
+    font-size: 22px;
+    transition: all 0.6s ease-in-out;
+}
+
+section.content-article .share-social-media .share-now ul li a:hover,
+section.content-article .share-social-media .share-now ul li a:active,
+section.content-article .share-social-media .share-now ul li a:focus {
+    color: $color-black;
+}

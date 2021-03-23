@@ -145,6 +145,11 @@ module.exports = {
       template: "./src/blog.html"
     }),
 
+     new HtmlWebpackPlugin({
+      filename: "article.html",
+      template: "./src/article.html"
+    }),
+
 
   ]
 }

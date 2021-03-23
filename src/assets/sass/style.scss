@@ -562,10 +562,30 @@ footer.footer-page .copyright p.copyright {
         margin-left: 1px;
     }
 
-
     // Page blog
     section.blog {
         margin-top: -5%;
+    }
+
+    // Page article blog
+    section.content-article .circle_top ul {
+        margin-top: 0;
+    }
+
+    section.content-article article .custom-image img {
+        height: 80px !important;
+    }
+
+    section.content-article article .image-article img {
+        height: 150px;
+    }
+
+    section.content-article .share-social-media .title-social h5 {
+        text-align: center;
+    }
+
+    section.content-article .share-social-media .share-now ul {
+        text-align: center;
     }
 
 }
@@ -654,6 +674,20 @@ footer.footer-page .copyright p.copyright {
     // Page blog
     section.blog {
         margin-top: 0;
+    }
+
+    // Page article blog
+
+    section.content-article .circle_top ul {
+        margin-top: 0;
+    }
+
+    section.content-article article .custom-image img {
+        height: 130px !important;
+    }
+
+    section.content-article article .image-article img {
+        height: 250px;
     }
 
 
@@ -777,7 +811,7 @@ footer.footer-page .copyright p.copyright {
 }
 
 // Top Extra lagr
-@media (min-width: 2000px) {
+@media (min-width: 1801px) and (max-width: 2000px) {
 
     // Page Who are we
     header.bg-about {
