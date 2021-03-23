@@ -150,6 +150,11 @@ module.exports = {
       template: "./src/article.html"
     }),
 
+    new HtmlWebpackPlugin({
+      filename: "loading_page.html",
+      template: "./src/loading_page.html"
+    }),
+
 
   ]
 }
