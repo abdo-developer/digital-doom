@@ -1,11 +1,11 @@
 // Custom page loanding page
-body {
+body.bg-loading {
     margin: 0;
     padding: 0;
     background: $color-fixed
 }
 
-ul {
+section.loading-page ul.circle_animate {
     position: absolute;
     top: 30%;
     left: 50%;
@@ -15,7 +15,7 @@ ul {
     display: flex
 }
 
-ul li {
+section.loading-page ul.circle_animate li.animate-loanding {
     list-style: none;
     width: 20px;
     height: 20px;
@@ -43,18 +43,18 @@ ul li {
     }
 }
 
-ul li:nth-child(1) {
+section.loading-page ul.circle_animate  li:nth-child(1) {
     animation-delay: -1.2s
 }
 
-ul li:nth-child(2) {
+section.loading-page ul.circle_animate  li:nth-child(2) {
     animation-delay: -1.0s
 }
 
-ul li:nth-child(3) {
+section.loading-page ul.circle_animate  li:nth-child(3) {
     animation-delay: -.8s
 }
 
-ul li:nth-child(4) {
+section.loading-page ul.circle_animate  li:nth-child(4) {
     animation-delay: -0.6s
 }

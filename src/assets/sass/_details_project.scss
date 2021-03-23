@@ -1,0 +1,52 @@
+// Custom style page details_project
+
+section.details_projects {
+    margin-top: 40px;
+}
+
+section.details_projects .title-serve h5 {
+    margin: 30px 0 15px;
+    font-size: 20px;
+}
+
+section.details_projects .list-service ul {
+    padding: 0;
+}
+
+section.details_projects .list-service ul li {
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+section.details_projects .list-service ul li svg {
+    color: $color-fixed;
+    font-size: 20px;
+}
+
+section.view-project {
+    margin-top: 40px;
+}
+
+section.view-project .title-project h4 {
+    margin-bottom: 30px;
+}
+
+section.view-project #carouselScreenProject {
+    text-align: center;
+}
+
+section.view-project #carouselScreenProject ol {
+    padding: 0;
+}
+
+section.view-project #carouselScreenProject ol.carousel-indicators li {
+    background-color: $color-light-green;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+section.view-project #carouselScreenProject .carousel-inner .carousel-item img  {
+    margin-bottom: 50px;
+}
+

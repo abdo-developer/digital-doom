@@ -12,6 +12,7 @@
 @import './blog';
 @import './contact_me';
 @import './loanding';
+@import './details_project';
 
 // Style Files
 
@@ -434,11 +435,6 @@ footer.footer-page .copyright p.copyright {
         margin-bottom: 45px;
     }
 
-    // section.services_arts {
-    //     padding: 65px 0;
-    //     height: 395vh;
-    // }
-
     section.business_gallery {
         margin-top: -25%;
     }
@@ -596,6 +592,24 @@ footer.footer-page .copyright p.copyright {
         margin: 20px 0px;
     }
 
+    // Page Details projects
+
+    section.details_projects {
+        margin-top: 0;
+    }
+
+    section.view-project #carouselScreenProject .carousel-inner .carousel-item img {
+        height: 165px;
+    }
+
+    section.view-project #carouselScreenProject ol {
+        padding: 0;
+    }
+
+    section.our-projects-now {
+        margin-top: 0;
+    }
+
 
 
 }
@@ -708,6 +722,22 @@ footer.footer-page .copyright p.copyright {
         margin: 20px 0px;
     }
 
+    // Page Details projects
+
+    section.view-project #carouselScreenProject .carousel-inner .carousel-item img {
+        height: 280px;
+    }
+
+    section.view-project #carouselScreenProject ol {
+        padding: 0;
+    }
+
+    section.our-projects-now {
+        margin-top: 0;
+    }
+
+
+
 
 }
 
@@ -786,6 +816,16 @@ footer.footer-page .copyright p.copyright {
         border-left: none;
         margin: 20px 0px;
     }
+
+    // Page details projects
+    section.view-project #carouselScreenProject {
+        margin-bottom: 20%;
+    }
+
+    section.view-project #carouselScreenProject ol {
+        padding: 0;
+    }
+
 }
 
 // Large devices (desktops, 992px and up)
