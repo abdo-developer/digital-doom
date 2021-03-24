@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>طلب تقييم فكرة | </title>
+    <title>طلب توظيف | </title>
 </head>
 
 <body>
@@ -63,68 +63,83 @@
     <!-- End -->
 
 
-
     <!-- Form requets -->
     <section class="requests_prices">
         <div class="container form-request">
 
             <!-- Title -->
-            <div class="title_idea">
-                <h3 class="custom-idea text-center">
-                    طلب تقييم فكرة مــا
-                </h3>
+            <div class="title-job">
+                <h3 class="custom-job-title text-center">انضم لشركة النجومية الرقمية</h3>
             </div>
-
-            <!-- Space -->
-            <br>
-
-            <!-- Text -->
-            <div class="text-idea">
-                <p class="text-center">
-                    لديك فكرة، وتريد فريق مميز يقةم تحليلها وتقييمها واكتشاف ما إذا كانت ناحجة أم لا ؟
-                    <br>
-                    إذاً، لا تتردد وسارع بملء النموذج أدنـاه وأرسل لنا الطلب وسوف نجيبك في أقرب الآجــال .
-                </p>
-            </div>
-
-            <!-- Line -->
-            <hr>
 
             <!-- Form request a price -->
             <form action="" class="form-request-send">
 
+                <!-- Name / phone / email -->
                 <div class="row">
-
-                    <!-- Image -->
-                    <div class="col-lg-6 col-md-12">
-                        <div class="image-pro text-center">
-                            <img src="./assets/images/Mobile apps-bro.svg" alt="Mobile apps-bro">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="form-group">
+                            <label for="">الإسم الكامل</label>
+                            <input type="text" class="form-control" placeholder="الإسم الكـامل" id="" name="" required>
                         </div>
                     </div>
 
-                    <!-- Form -->
-                    <div class="col-lg-6 col-md-12">
-
+                    <div class="col-lg-4 col-md-12">
                         <div class="form-group">
-                            <label for="">الإسـم الكامل</label>
-                            <input type="text" class="form-control" placeholder="الإسم الكامل" id="" name="" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="">رقم الجـوال</label>
-                            <input type="tel" class="form-control" placeholder="رقم الجـوال" id="" name="" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="">البريد الإلكتروني</label>
-                            <input type="text" class="form-control" placeholder="البريد الإلكتروني" id="" name=""
+                            <label for="">رقم الجوال</label>
+                            <input type="tel" class="form-control" placeholder="رقم الهافت الخاص بك" id="" name=""
                                 required>
                         </div>
+                    </div>
 
+                    <div class="col-lg-4 col-md-12">
                         <div class="form-group">
-                            <label for="">تفاصيل عن الفكرة</label>
-                            <textarea class="form-control" placeholder="تفاصيل عن الفكرة" name="" id="" cols="7"
-                                rows="5"></textarea>
+                            <label for="">البريد الإلكتروني</label>
+                            <input type="email" class="form-control" placeholder="بريد الإلكتروني" id="" name=""
+                                required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Name comapny /our services / city -->
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="form-group">
+                            <label for="">سنوات الخبرة</label>
+                            <input type="number" class="form-control" placeholder="سنوات الخبرة" id="" name="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12">
+                        <div class="form-group">
+                            <label for="">مجال الوظيفة</label>
+                            <select class="form-control" name="" id="" required>
+                                <option value="" disabled selected>اختر مجال الوظيفة</option>
+                                <option value="">برمجة التطبيقات</option>
+                                <option value="">برمجة التطبيقات</option>
+                                <option value="">برمجة التطبيقات</option>
+                                <option value="">برمجة التطبيقات</option>
+                                <option value="">برمجة التطبيقات</option>
+                                <option value="">برمجة التطبيقات</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12">
+                        <div class="form-group">
+                            <label for="">حسابك على أحد مواقع التواصل</label>
+                            <input type="url" class="form-control" placeholder="حسابك على أحد مواقع التواصل" id="" name="" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Textarea -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="">عرفنا بنفسك قليلاً</label>
+                            <textarea class="form-control" placeholder="اكتب نبذة بسيطة عنك ..." name=""
+                                id="" cols="10" rows="8"></textarea>
                         </div>
                     </div>
                 </div>
@@ -146,7 +161,6 @@
         </div>
     </section>
     <!-- End -->
-
 
 
     <!-- Footer Page -->
@@ -270,6 +284,9 @@
 
 
     <script type="text/script" src="{require{'./index.js'}}"></script>
+
+
+
 
 
 </body>

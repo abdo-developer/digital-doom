@@ -165,6 +165,10 @@ module.exports = {
       template: "./src/app_projects.html"
     }),
 
+    new HtmlWebpackPlugin({
+      filename: "job.html",
+      template: "./src/job.html"
+    }),
 
   ]
 }
