@@ -8,7 +8,7 @@ jQuery(function () {
 
     $("#copyright").text(" © جميع الحقوق محفوظة - النجومية الرقمية | 2020 - " + new Date().getFullYear());
 
-    // Scroll hash 
+    // Scroll hash
 
     $("a.scroll").on('click', function (event) {
 
@@ -23,7 +23,6 @@ jQuery(function () {
     });
 
     $('.timer').countTo();
-
 
 });
 

@@ -1,4 +1,4 @@
-// Import File Sass 
+// Import File Sass
 
 @import'./image';
 @import './color';
@@ -13,6 +13,7 @@
 @import './contact_me';
 @import './loanding';
 @import './details_project';
+@import './floating-wpp.scss';
 
 
 // Style Files
@@ -168,7 +169,7 @@ section.about-company .read_more a:focus {
     -webkit-box-shadow: -30px 0 0 $color-base-light inset;
 }
 
-// Section services arts 
+// Section services arts
 section.services_arts {
     background-image: url(../images/bg-services.svg);
     background-position: center center;
@@ -307,7 +308,7 @@ section.Contact-us .contact-us-now .contect-now a:focus section.Contact-us .cont
 
 
 
-// Footer page 
+// Footer page
 
 footer.footer-page {
     background-image: url(../images/footer_bg.svg);
@@ -862,7 +863,7 @@ footer.footer-page .copyright p.copyright {
     }
 }
 
-// Extra Lg 
+// Extra Lg
 @media (min-width: 1400px) and (max-width: 1800px) {
 
     // Responsive pages
@@ -875,7 +876,7 @@ footer.footer-page .copyright p.copyright {
         height: 75vh;
     }
 
-    // Page blog 
+    // Page blog
     header.bg-blog {
         height: 110vh;
     }
@@ -889,7 +890,7 @@ footer.footer-page .copyright p.copyright {
         height: 75vh;
     }
 
-    // Page blog 
+    // Page blog
     header.bg-blog {
         height: 105vh;
     }

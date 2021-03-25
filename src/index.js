@@ -11,7 +11,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.js';
 
 import '@fortawesome/fontawesome-free/js/all.min.js';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import 'jquery/dist/jquery';
+import 'jquery/dist/jquery.js';
 import './assets/js/script.js';
 
 import 'jquery-countto/jquery.countTo';
@@ -20,3 +20,4 @@ import 'dropzone/dist/dropzone.js';
 import 'dropzone/dist/dropzone.css';
 
 import './assets/sass/style.scss';
+
