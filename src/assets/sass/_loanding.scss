@@ -1,8 +1,18 @@
 // Custom page loanding page
-body.bg-loading {
+.bg-loading {
     margin: 0;
     padding: 0;
     background: $color-fixed
+}
+
+section.loading-page {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 10000;
 }
 
 section.loading-page .image-logo img {

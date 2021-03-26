@@ -1,7 +1,17 @@
 // Custom navbar fullscreen 
 
+#menus {
+    overflow-y: scroll !important;
+    max-height: 100% !important;
+}
+
 .navbar.navbar-dark.box-shadow {
     background-color: $color-base;
+}
+
+.nav {
+    padding-right: 0;
+    padding-bottom: 30px;
 }
 
 .main-menu {
@@ -143,7 +153,6 @@
     padding: 12px;
 }
 
-
 .nav-button #nav-icon3 svg {
     font-size: 26px;
     color: white;
@@ -194,7 +203,7 @@
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: block;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;

@@ -26,6 +26,19 @@ body {
 }
 
 
+
+
+#menu {
+    background: hsla(1, 0%, 100%, .9);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    min-height: 100%;
+    padding-top: 80px;
+}
+
+
 // Style Home Page
 
 // Style Header page
@@ -70,6 +83,7 @@ header.header_top_page .text_mark p {
 
 header.header_top_page .portfolio_projects {
     margin-top: 50px;
+    margin-bottom: 70px;
 }
 
 .portfolio_projects a {

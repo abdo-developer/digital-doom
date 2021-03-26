@@ -16,13 +16,15 @@ jQuery(function () {
 
         $('html,body').animate({ scrollTop: $(hash).offset().top }, 800, function () { })
     });
-
     // FullScreen navigations
-    $('.nav-button').click(function(){
+    $('.nav-button').click(function () {
         $('body').toggleClass('nav-open');
     });
 
     $('.timer').countTo();
 
+    $(window).on("load", function () {
+        $(".loading-page").fadeOut("slow");
+    });
 });
 
