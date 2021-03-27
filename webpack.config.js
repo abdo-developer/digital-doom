@@ -170,5 +170,15 @@ module.exports = {
       template: "./src/job.html"
     }),
 
+    new HtmlWebpackPlugin({
+      filename: "sections_blog.html",
+      template: "./src/sections_blog.html"
+    }),
+
+    new HtmlWebpackPlugin({
+      filename: "error.html",
+      template: "./src/error.html"
+    }),
+
   ]
 }

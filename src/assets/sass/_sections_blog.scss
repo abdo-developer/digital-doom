@@ -1,0 +1,37 @@
+// Custom style categories page
+.caterory-blog {
+    background-color: $color-base-light;
+    margin-top: 12%;
+    padding: 5px;
+    max-height: 150px;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgb(17 17 26 / 5%), 0 8px 32px rgb(17 17 26 / 5%);
+    transition: all 0.6s ease-in-out;
+}
+
+.caterory-blog:hover,
+.caterory-blog:active,
+.caterory-blog:focus {
+    background-color: $color-light-green;
+    color: $color-white;
+    cursor: pointer;
+}
+
+.link-category {
+    font-weight: 600;
+    color: $color-white;
+    font-size: 20px;
+    margin-top: 8px;
+    text-decoration: none;
+    transition: all 0.6s ease-in-out;
+}
+
+.link-category:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}

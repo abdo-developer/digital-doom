@@ -23,8 +23,12 @@ jQuery(function () {
 
     $('.timer').countTo();
 
+    // Page loanding att
+
     $(window).on("load", function () {
         $(".loading-page").fadeOut("slow");
     });
+
+
 });
 
